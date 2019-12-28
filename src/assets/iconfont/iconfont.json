@@ -1,0 +1,16 @@
+{
+  "id": "1568693",
+  "name": "周年",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10489371",
+      "name": "翻页",
+      "font_class": "fanye",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    }
+  ]
+}
