@@ -2,7 +2,7 @@
     <div id="app">
         <div class="view" :class="{'changeup': changeup,'changedown': changedown}">
             <router-view/>
-            <div class="change-page" v-if="!show_text">
+            <div class="change-page" v-if="!show_text && show_button">
                 <i class="iconfont icon-fanye" @click="change_page"></i>
             </div>
             <div class="page_button" v-if="show_text">
@@ -114,6 +114,7 @@
         color: #ffffff;
         border: 0.02rem solid #ffffff;
         border-radius: 1rem;
+        margin: 0.06rem 0.08rem;
         opacity: 0.5;
     }
     .view {
@@ -150,6 +151,7 @@ export default {
             changeup: false,
             changedown: false,
             show_text:false,
+            show_button: false,
             music: false,
             button_num:[11,12,13,14,15,16,17],
         }

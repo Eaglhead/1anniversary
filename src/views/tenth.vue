@@ -7,6 +7,9 @@
             <div class="text1">
                 端午呀，因为你要考四级，所以，我又来啦
             </div>
+            <div class="text1">
+                (有照片)
+            </div>
         </div>
         <photo-view class="show"
         v-if="hide"  

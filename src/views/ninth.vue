@@ -80,7 +80,7 @@ export default {
             setTimeout(() => {
                 this.hide_div = false;
             },1000);
-        },1000*5);
+        },1000*3);
     },
     destroyed(){
 

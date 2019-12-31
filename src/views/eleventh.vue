@@ -10,6 +10,9 @@
             <div class="text1">
                中秋快乐！！！！！
             </div>
+            <div class="text1">
+               （同样等等）
+            </div>
         </div>
         <photo-view class="show"
         v-if="hide" 
@@ -93,7 +96,6 @@ export default {
                     img: require('@/assets/img/zhongqiu/guang4.jpg'),
                     active:false,
                 },
-
             ]
         }
     },
