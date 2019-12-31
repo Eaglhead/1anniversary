@@ -153,7 +153,7 @@ export default {
             show_text:false,
             show_button: false,
             music: false,
-            button_num:[11,12,13,14,15,16,17],
+            button_num:[],
         }
     },
     mounted(){
@@ -174,6 +174,7 @@ export default {
                 this.flag++;
                 if(this.flag == 17) {
                     localStorage.setItem('myflag',0);
+                    this.button_num.push(17); 
                     this.show_text = true;
                 } else {
                     this.button_num.push((this.flag)); 
