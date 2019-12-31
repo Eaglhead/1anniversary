@@ -44,6 +44,9 @@
         overflow: auto;
         position: relative;
     }
+    img{ 
+        pointer-events: none!important; 
+    }
     .music{
         font-size: 0.42rem!important;
         position: absolute;
