@@ -164,9 +164,10 @@ export default {
             this.changeup = true;
             this.changedown = true;
             setTimeout(() => {
-                this.flag = Math.round(localStorage.getItem('myflag'));
-                if(this.flag === 0) {
-                    this.button_num = [];
+                this.flag = +localStorage.getItem('myflag');
+                window.console.log(this.flag);
+                if(this.flag === 1) {
+                    this.button_num = [1];
                 }
                 this.$router.push({
                     path: `/${this.flag}`
@@ -178,6 +179,7 @@ export default {
                     this.show_text = true;
                 } else {
                     this.button_num.push((this.flag)); 
+                    window.console.log(this.button_num);
                     this.show_text = false;
                     localStorage.setItem('myflag',this.flag);
                 }
