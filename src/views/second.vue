@@ -6,7 +6,7 @@
         <div class="text1">
             福道，我们福州行的第一站<br/>（在自拍的你还不知道晚上会被我表白扒，嘿嘿）
         </div>
-        <video class="video" controls>
+        <video class="video" controls preload="auto">
             <source src="../assets/video/fudao.mp4" type="video/mp4">
             您的浏览器不支持 HTML5 video 标签。
         </video>
@@ -48,6 +48,12 @@
 export default {
     name: 'second',
     components: {
+
+    },
+    mounted(){
+
+    },
+    destroyed(){
 
     }
 }

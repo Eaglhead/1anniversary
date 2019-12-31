@@ -65,33 +65,53 @@ export default {
             hide_div:true,
             message:[
                 {
-                    title: '一见面就合照（有毒）',
-                    img: require('@/assets/img/zhongqiu/hezhao1.jpg'),
+                    title: '第一站：厦门',
+                    img: require('@/assets/img/guoqing/xiamen1.jpg'),
                     active:true,
                 },
                 {
                     title: ' ',
-                    img: require('@/assets/img/zhongqiu/hezhao2.jpg'),
+                    img: require('@/assets/img/guoqing/xiamen2.jpg'),
                     active:false,
                 },
                 {
-                    title: '然后我带着你，你带着学妹四处逛',
-                    img: require('@/assets/img/zhongqiu/guang2.jpg'),
+                    title: '小导游',
+                    img: require('@/assets/img/guoqing/xiamen3.jpg'),
                     active:false,
                 },
                 {
-                    title: ' ',
-                    img: require('@/assets/img/zhongqiu/guang1.jpg'),
-                    active:false,
-                },
-                {
-                    title: ' ',
-                    img: require('@/assets/img/zhongqiu/guang3.jpg'),
+                    title: '在钟鼓索道',
+                    img: require('@/assets/img/guoqing/xiamen4.jpg'),
                     active:false,
                 },
                 {
                     title: ' ',
-                    img: require('@/assets/img/zhongqiu/guang4.jpg'),
+                    img: require('@/assets/img/guoqing/xiamen5.jpg'),
+                    active:false,
+                },
+                {
+                    title: '第二站：泉州',
+                    img: require('@/assets/img/guoqing/quanzhou.jpg'),
+                    active:false,
+                },
+                {
+                    title: ' ',
+                    img: require('@/assets/img/guoqing/quanzhou2.jpg'),
+                    active:false,
+                },
+                {
+                    title: ' ',
+                    img: require('@/assets/img/guoqing/quanzhou3.jpg'),
+                    active:false,
+                },
+                {
+                    title: '第三站：回福州（一看到吃的就开心白蝶）',
+                    img: require('@/assets/img/guoqing/lvdou.jpg'),
+                    active:false,
+                },
+                {
+                    title: ' ',
+                    img: require('@/assets/img/guoqing/fuzhou.jpg'),
                     active:false,
                 },
             ]

@@ -2,23 +2,23 @@
     <div class="end">
         <div class="box" ref="box">
             <ul class="minbox">
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce1.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce2.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce3.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce4.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce5.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce6.jpg" alt=""></li>
             </ul>
             <ol class="maxbox">
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
-                <li><img src="../assets/万家灯火.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce9.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce8.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce7.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce12.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce11.jpg" alt=""></li>
+                <li><img src="../assets/img/richang/xiangce10.jpg" alt=""></li>
             </ol>
         </div>
-        <div class="tips" :class="{'tips2':show2}" v-if="show">点击旋转魔方展开相册，收起则点其他地方</div>
+        <div class="tips" :class="{'tips2':show2}">点击旋转魔方展开相册，收起则点其他地方</div>
     </div>
 </template>
 
@@ -37,6 +37,7 @@
 }
 .tips{
     margin-top: 1rem;
+    height: 0.6rem;
     width: 100%;
     text-align: center;
     font-size: 0.32rem;
@@ -159,7 +160,7 @@ img{
 .box:hover ol li{
 	width: 6rem;
 	height: 6rem;
-	opacity: 0.8;
+	opacity: 0.7;
 	left: -1.4rem;
 	top: -1rem;
 }

@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="show" :class="{'hide': hide_div}">
-            <video class="video" controls>
+            <video class="video" controls preload="auto">
                 <source src="../assets/video/liuyi.mp4" type="video/mp4">
                 您的浏览器不支持 HTML5 video 标签。
             </video>
@@ -81,6 +81,9 @@ export default {
                 this.hide_div = false;
             },1000);
         },1000*5);
+    },
+    destroyed(){
+
     },
     components: {
 

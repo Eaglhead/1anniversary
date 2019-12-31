@@ -6,7 +6,7 @@
         <div class="text1">
             晚上，我们去了游乐园看烟花<br/>（嗯，没把你带上那些刺激项目，真亏）
         </div>
-        <video class="video" controls>
+        <video class="video" controls preload="auto">
             <source src="../assets/video/playground.mp4" type="video/mp4">
             您的浏览器不支持 HTML5 video 标签。
         </video>
@@ -48,6 +48,12 @@
 export default {
     name: 'third',
     components: {
+
+    },
+    mounted(){
+
+    },
+    destroyed(){
 
     }
 }

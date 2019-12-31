@@ -7,6 +7,9 @@
             兜兜转转，新的一年来咯
         </div>
         <div class="text1">
+            接下来我们还要去更多的地方，看更多的风景
+        </div>
+        <div class="text1">
             新的一年，请继续多多关照
         </div>
         <div class="text1">

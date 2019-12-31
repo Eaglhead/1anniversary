@@ -3,6 +3,7 @@
       <div class="title">Single Dog Warning</div>
       <div class="text1">专为周年开发创作，单身狗慎入。</div>
       <div class="text2">翻页请点击下边</div>
+      <div class="text2">(音乐请手动点击右上角)</div>
   </div>
 </template>
 
